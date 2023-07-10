@@ -19,8 +19,8 @@ const Navbar = () => {
         setNav(!nav);
     };
     return (
-        <div className='fixed w-full h-[80px] flex justify-between text-gray-300 items-center px-4 bg-[#414756] border-2 border-red-500'>
-            <div className='border-2 border-red-500'>
+        <div className='fixed w-full h-[80px] flex justify-between text-gray-300 items-center px-4 bg-[#414756]  '>
+            <div>
                 <img src={logo} alt='oerd bej' style={{ width: '140px' }} />
             </div>
 
