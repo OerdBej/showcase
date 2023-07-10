@@ -16,17 +16,21 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <p>Hi, I am Oerd. Please look at some of the projets</p>{' '}
+                        <p>
+                            Hello, I'm Oerd Bej. Take a look at a selection of
+                            my projects.
+                        </p>{' '}
                     </div>
                     <div>
-                        <p>
-                            I am passionate about building excellent software
-                            that improves the lives of those around me. I
-                            specialize in creating software for clients ranging
-                            from individuals and small-businesses all the way to
-                            large enterprise corporations. What would you do if
-                            you had a software expert available at your
-                            fingertips?
+                        <p className='font-medium'>
+                            Are you ready to unlock the full potential of your
+                            digital world? With my expertise in crafting
+                            software solutions, I can turn your vision into a
+                            reality. Whether you're an individual, small
+                            business, or large enterprise, let's collaborate to
+                            create software that exceeds your expectations.
+                            Ready to take the leap towards innovation and
+                            success?
                         </p>
                     </div>
                 </div>
