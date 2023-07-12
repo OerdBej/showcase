@@ -9,7 +9,9 @@ import Mongo from '../assets/mongo.png';
 import TypeScript from '..//assets/typescript.png';
 const Skills = () => {
     return (
-        <div name='skills' className='bg-[#0a192f] text-gray-300'>
+        <div
+            name='skills'
+            className='bg-[#0a192f] w-full h-screen text-gray-300'>
             {/* the div container */}
             <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full'>
                 <div>
