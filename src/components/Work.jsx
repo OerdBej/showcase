@@ -1,4 +1,6 @@
 import React from 'react';
+import MiAuriga from '../assets/MiAuriga.jpg';
+import LoopStudio from '../assets/LoopStudios-Tailwind.jpg';
 
 const Work = () => {
     return (
@@ -14,9 +16,11 @@ const Work = () => {
                     <p className='py-6'>Look at some of my works</p>
                 </div>
 
+                <div style={{ backgroundImage: `url(${MiAuriga})` }}></div>
                 {/* grid container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                    <div>
+                    {/* the shadow section */}
+                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
                         <div>
                             <span></span>
                             <div>
