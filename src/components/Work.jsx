@@ -18,7 +18,122 @@ const Work = () => {
 
                 {/* grid container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                    {/* the shadow section */}
+                    {/* grid items */}
+                    <div
+                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                        {/* hover */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Tailwind Website
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* item 2 */}
+                    <div
+                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                        {/* hover */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Tailwind Website
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* item 3 */}
+                    <div
+                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                        {/* hover */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Tailwind Website
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* item 4 */}
+                    <div
+                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                        {/* hover */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Tailwind Website
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* item 5 */}
+                    <div
+                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                        {/* hover */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Tailwind Website
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='/'>
+                                    <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* item 6 */}
                     <div
                         style={{ backgroundImage: `url(${LoopStudio})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
