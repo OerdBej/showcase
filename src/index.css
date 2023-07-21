@@ -25,6 +25,6 @@ li {
     background-image: linear-gradient(
         to right,
         rgba(112, 157, 255, 0.8),
-        hsla(242, 74%, 61%, 0.6)
-    );
+        hsla(242, 74%, 61%, 0.8)
+    ) !important;
 }
