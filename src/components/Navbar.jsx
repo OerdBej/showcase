@@ -1,12 +1,6 @@
 import React from 'react';
 import logo from '../assets/oerdbej.png';
-import {
-    FaBars,
-    FaTimes,
-    FaLinkedin,
-    FaGithub,
-    FaFacebook,
-} from 'react-icons/fa';
+import { FaBars, FaTimes, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useState } from 'react';
@@ -53,7 +47,7 @@ const Navbar = () => {
             </ul>
 
             {/* social */}
-            <div className=' hidden lg:flex   flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
                         <a

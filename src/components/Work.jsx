@@ -2,9 +2,9 @@ import React from 'react';
 import MiAuriga from '../assets/MiAuriga.jpg';
 import LoopStudio from '../assets/LoopStudios-Tailwind.jpg';
 import SmartAdria from '../assets/SmartAdria-project.png';
-import WeatherWise from '../assets/Weather-Wise-React.jpg';
-import JavaScript from '../assets/JavaScript-Image.jpg';
+import WeatherWise from '../assets/Weather-Wise-React.png';
 import Contextual from '../assets/Contextual.png';
+import JavaScript from '../assets/Photo-Editor.png';
 
 const Work = () => {
     return (
@@ -15,7 +15,7 @@ const Work = () => {
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 text-grey-300 border-pink-500'>
-                        Work
+                        Coding Projects
                     </p>
                     <p className='py-6'>Look at some of my works</p>
                 </div>
@@ -33,7 +33,7 @@ const Work = () => {
                             </span>
                             {/* Here is the first */}
                             <div className='pt-8 text-center'>
-                                <a href='https://https://miauriga-frontend-staging.up.railway.app/.net/'>
+                                <a href='https://smartadria.net/'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Demo
                                     </button>
@@ -56,7 +56,7 @@ const Work = () => {
                                 miAuriga Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://miauriga-frontend-staging.up.railway.app/'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Demo
                                     </button>
@@ -79,7 +79,7 @@ const Work = () => {
                                 Tailwind Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://tailwind-frontend-challenges-rc7tstj4j-oerdbej.vercel.app/'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Demo
                                     </button>
@@ -102,7 +102,7 @@ const Work = () => {
                                 Weather Wise Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://weatherwise.netlify.app/'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Demo
                                     </button>
@@ -125,7 +125,7 @@ const Work = () => {
                                 Photo Editor Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://photo-editor-gamma.vercel.app/'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Demo
                                     </button>
@@ -148,7 +148,7 @@ const Work = () => {
                                 Contextual Project
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://contextual-todo.vercel.app/'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Demo
                                     </button>
