@@ -17,7 +17,9 @@ const Work = () => {
                     <p className='text-4xl font-bold inline border-b-4 text-grey-300 border-pink-500'>
                         Coding Projects
                     </p>
-                    <p className='py-6'>Look at some of my works</p>
+                    <p className='py-6'>
+                        Explore a few of the projects I've been working on.
+                    </p>
                 </div>
 
                 {/* grid container */}
@@ -84,7 +86,7 @@ const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/OerdBej/tailwind-frontend_challenge'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Code
                                     </button>
@@ -107,7 +109,7 @@ const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/Billy-Night/weather_wise_app'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Code
                                     </button>
@@ -130,7 +132,7 @@ const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/OerdBej/Photo-Editor'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Code
                                     </button>
@@ -153,7 +155,7 @@ const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/OerdBej/contextual-todo'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Code
                                     </button>
