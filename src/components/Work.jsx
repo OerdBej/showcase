@@ -1,6 +1,10 @@
 import React from 'react';
 import MiAuriga from '../assets/MiAuriga.jpg';
 import LoopStudio from '../assets/LoopStudios-Tailwind.jpg';
+import SmartAdria from '../assets/SmartAdria-project.png';
+import WeatherWise from '../assets/Weather-Wise-React.jpg';
+import JavaScript from '../assets/JavaScript-Image.jpg';
+import Contextual from '../assets/Contextual.png';
 
 const Work = () => {
     return (
@@ -20,15 +24,16 @@ const Work = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     {/* grid items */}
                     <div
-                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        style={{ backgroundImage: `url(${SmartAdria})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Tailwind Website
+                                Smart Adria Project
                             </span>
+                            {/* Here is the first */}
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://https://miauriga-frontend-staging.up.railway.app/.net/'>
                                     <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                                         Demo
                                     </button>
@@ -43,12 +48,12 @@ const Work = () => {
                     </div>
                     {/* item 2 */}
                     <div
-                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        style={{ backgroundImage: `url(${MiAuriga})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Tailwind Website
+                                miAuriga Project
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
@@ -71,7 +76,7 @@ const Work = () => {
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Tailwind Website
+                                Tailwind Project
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
@@ -89,12 +94,12 @@ const Work = () => {
                     </div>
                     {/* item 4 */}
                     <div
-                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        style={{ backgroundImage: `url(${WeatherWise})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Tailwind Website
+                                Weather Wise Project
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
@@ -112,12 +117,12 @@ const Work = () => {
                     </div>
                     {/* item 5 */}
                     <div
-                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        style={{ backgroundImage: `url(${JavaScript})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Tailwind Website
+                                Photo Editor Project
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
@@ -135,12 +140,12 @@ const Work = () => {
                     </div>
                     {/* item 6 */}
                     <div
-                        style={{ backgroundImage: `url(${LoopStudio})` }}
+                        style={{ backgroundImage: `url(${Contextual})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Tailwind Website
+                                Contextual Project
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>

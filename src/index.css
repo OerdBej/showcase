@@ -21,6 +21,7 @@ li {
     height: 250px;
 }
 
+/* important bcs on work we are using the bg image and neglecting the style */
 .content-div:hover {
     background-image: linear-gradient(
         to right,
