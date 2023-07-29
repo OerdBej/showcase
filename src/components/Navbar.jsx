@@ -60,11 +60,60 @@ const Navbar = () => {
                         ? 'hidden'
                         : 'absolute top-0 left-0 w-full h-screen bg-[#414756] flex flex-col justify-center items-center '
                 }>
-                <li className='p-6 text-4xl'>Home</li>
-                <li className='p-6 text-4xl'>About</li>
-                <li className='p-6 text-4xl'>Experience</li>
-                <li className='p-6 text-4xl'> Work</li>
-                <li className='p-6 text-4xl'>Contact</li>
+                {/* mobile list items */}
+                <li className='p-6 text-4xl'>
+                    <Link
+                        to='home'
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        onClick={handleClick}>
+                        Home
+                    </Link>
+                </li>
+                <li className='p-6 text-4xl'>
+                    <Link
+                        to='about'
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        onClick={handleClick}>
+                        About
+                    </Link>
+                </li>
+                <li className='p-6 text-4xl'>
+                    {' '}
+                    <Link
+                        to='skills'
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        onClick={handleClick}>
+                        Experience
+                    </Link>
+                </li>
+                <li className='p-6 text-4xl'>
+                    {' '}
+                    <Link
+                        to='work'
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        onClick={handleClick}>
+                        Work
+                    </Link>
+                </li>
+                <li className='p-6 text-4xl'>
+                    {' '}
+                    <Link
+                        to='contact'
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        onClick={handleClick}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             {/* social */}
