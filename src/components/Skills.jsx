@@ -7,6 +7,7 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
 import TypeScript from '..//assets/typescript.png';
+import Material from '../assets/Material.png';
 const Skills = () => {
     return (
         <div
@@ -16,10 +17,11 @@ const Skills = () => {
             <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <p className='text-4xl font-bold inline  border-b-4 border-pink-600'>
-                        Experiences
+                        Technology
                     </p>
                     <p className='py-4'>
-                        This are some of the stacks that i used
+                        This are some of the stacks that am confortable working
+                        on.
                     </p>
                 </div>
                 {/* div container for all the icons*/}
@@ -47,6 +49,14 @@ const Skills = () => {
                             alt='tailwind logo'
                         />
                         <p className='my-4'>Tailwind</p>
+                    </div>
+                    <div className='shadow-md shadow-pink hover:scale-110 duration-300'>
+                        <img
+                            className='w-20 mx-auto'
+                            src={Material}
+                            alt='material ui logo'
+                        />
+                        <p className='my-4'>Material UI</p>
                     </div>
                     <div className='shadow-md shadow-pink hover:scale-110 duration-300'>
                         <img
@@ -79,14 +89,6 @@ const Skills = () => {
                             alt='MongoDb logo'
                         />
                         <p className='my-4'>Mongo</p>
-                    </div>
-                    <div className='shadow-md shadow-pink hover:scale-110 duration-300'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={GitHub}
-                            alt='github logo'
-                        />
-                        <p className='my-4'>GitHub</p>
                     </div>
                 </div>
             </div>

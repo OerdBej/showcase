@@ -33,12 +33,12 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to='skills' smooth={true} offset={50} duration={500}>
-                        Experience
+                        Technology
                     </Link>
                 </li>
                 <li>
                     <Link to='work' smooth={true} offset={50} duration={500}>
-                        Work
+                        Projects
                     </Link>
                 </li>
                 <li>
@@ -82,29 +82,26 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='p-6 text-4xl'>
-                    {' '}
                     <Link
                         to='skills'
                         smooth={true}
                         offset={50}
                         duration={500}
                         onClick={handleClick}>
-                        Experience
+                        Technology
                     </Link>
                 </li>
                 <li className='p-6 text-4xl'>
-                    {' '}
                     <Link
                         to='work'
                         smooth={true}
                         offset={50}
                         duration={500}
                         onClick={handleClick}>
-                        Work
+                        Projects
                     </Link>
                 </li>
                 <li className='p-6 text-4xl'>
-                    {' '}
                     <Link
                         to='contact'
                         smooth={true}
