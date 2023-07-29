@@ -1,6 +1,6 @@
 # Portfolio Showcase
 
-Welcome to my portfolio showcase repository! Here, you will find a collection of some of my projects that demonstrate my skills and experience. This portfolio project is built using Tailwind CSS and React, providing a dynamic and responsive website experience.
+Welcome to my portfolio showcase repository! Here, you will find a collection of some of my projects that demonstrate my skills and experience. This portfolio project is built using **Tailwind CSS** and **React**, providing a dynamic and responsive website experience.
 
 ## Features
 
@@ -14,4 +14,6 @@ Welcome to my portfolio showcase repository! Here, you will find a collection of
 
 -   **Responsive Design:** Ensuring a seamless experience across different devices and screen sizes was a priority in this portfolio project. With responsive design techniques, the website adapts and adjusts its layout to provide an optimal viewing experience, whether on desktop, tablet, or mobile.
 
-## Getting Started
+-   **React Scroll Package:** For smooth scrolling between different sections of the website, I integrated the React Scroll package. This allowed for a more seamless navigation experience as users explore the content.
+
+-   **App.getform.io Integration:** To provide an easy way for users to contact me, I integrated the app.getform.io service. This service generates an endpoint, allowing users to send me emails directly through the portfolio website. This enhances communication and makes it convenient for potential clients or collaborators to get in touch.
