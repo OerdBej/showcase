@@ -114,7 +114,8 @@ const Navbar = () => {
             </ul>
 
             {/* social */}
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            {/* social */}
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 '>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
                         <a
@@ -123,27 +124,30 @@ const Navbar = () => {
                             Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3333]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3333] mt-6'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://github.com/OerdBej'>
                             Github <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg'>
+
+                    {/* This section is for the curriculum vita and the email that need to be worked on functionality */}
+
+                    {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg mt-4'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='/'>
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] mt-4'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='/'>
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>
