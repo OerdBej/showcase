@@ -55,7 +55,7 @@ const Work = () => {
                         {/* hover */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                miAuriga Project
+                                Auriga Project
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='https://miauriga-frontend-staging.up.railway.app/'>

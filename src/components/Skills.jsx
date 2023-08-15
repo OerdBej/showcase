@@ -20,8 +20,8 @@ const Skills = () => {
                         Technology
                     </p>
                     <p className='py-4'>
-                        This are some of the stacks that am confortable working
-                        on.
+                        These are some of the stacks that I am comfortable
+                        working on.
                     </p>
                 </div>
                 {/* div container for all the icons*/}
