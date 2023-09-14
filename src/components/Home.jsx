@@ -15,7 +15,7 @@ const Home = () => {
                     Junior Full Stack Developer{' '}
                 </h2>
                 <p className='text-[#8892b0] py-4 max-w-[700px]'>
-                    As a junior web developer, I am driven by a passion for
+                    As a Frontend Enginner, I am driven by a passion for
                     learning and consistently challenge myself through a variety
                     of modular projects to create high-quality, user-centric
                     solutions. With expertise in both front-end and back-end
