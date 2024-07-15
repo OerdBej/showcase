@@ -7,16 +7,11 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 
 const App = () => {
-    return (
-        <div>
-            <Navbar />
-            <Home />
-            <About />
-            <Skills />
-            <Work />
-            <Contact />
-        </div>
-    );
+  return (
+    <div>
+      <Work />
+    </div>
+  );
 };
 
 export default App;
