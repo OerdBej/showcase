@@ -2,7 +2,7 @@ import React from 'react';
 import MiAuriga from '../assets/MiAuriga.jpg';
 import LoopStudio from '../assets/LoopStudios-Tailwind.jpg';
 import SmartAdria from '../assets/SmartAdria-project.png';
-import WeatherWise from '../assets/Weather-Wise-React.png';
+import WeatherActive from '../assets/WeatherWise.png';
 import Contextual from '../assets/Contextual.png';
 import JavaScript from '../assets/Photo-Editor.png';
 
@@ -101,21 +101,21 @@ const Work = () => {
           </div>
           {/* item 4 */}
           <div
-            style={{ backgroundImage: `url(${WeatherWise})` }}
+            style={{ backgroundImage: `url(${WeatherActive})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '
           >
             {/* hover */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Weather Wise Project
+                WeatherActive
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://weatherwise.netlify.app/'>
+                <a href='https://weatheractive.vercel.app/'>
                   <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Billy-Night/weather_wise_app'>
+                <a href='https://github.com/Billy-Night/weather_active_app'>
                   <button className='text-cetner rounded-lg px-4 py-3 m-2 bg-white text-gray-600 font-bold text-lg'>
                     Code
                   </button>
